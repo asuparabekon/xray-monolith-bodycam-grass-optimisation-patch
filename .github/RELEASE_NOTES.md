@@ -1,12 +1,10 @@
 # Bodycam Grass Optimisation
 
-Optional grass shader package for the Bodycam/PiP engine, based on Screen Space Shaders 23.
+Optional grass shaders for the Bodycam engine, built on Screen Space Shaders 23. They turn on the
+engine's grass renderer, which batches grass draws and skips hidden grass.
 
-Download **the attached ZIP** and install it with MO2's **Install a new mod from an archive** command. The archive has `gamedata/` at its root. Enable it and let it win conflicts against SSS 23, Enhanced Shaders and Grass Tweaks. Clear `Anomaly/appdata/shaders_cache` while the game is closed.
+Install the attached ZIP with MO2's **Install a new mod from an archive** (not GitHub's source archives).
+Install the matching Bodycam engine first and let this mod win conflicts against SSS 23, Enhanced Shaders
+and Grass Tweaks. Clear `Anomaly/appdata/shaders_cache` with the game closed. Not for SSS 24 alpha.
 
-Includes hardware-instanced grass support, per-draw fade, bender early-out and a depth-only grass shadow element. Requires the matching Bodycam engine. SSS 24 alpha is not supported by this package.
-
-Use the attached mod ZIP, not GitHub's automatically generated source archives.
-
-
-SHA256SUMS.txt contains the checksum of the release archive.
+`SHA256SUMS.txt` has the archive checksum.
